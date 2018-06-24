@@ -7,6 +7,7 @@
 
 def invitation
   puts "Hi, you've been invited to a party! What is your name?"
+  guest_name=gets.chomp
   puts "Dear #{guest_name}," 
   puts "You are cordially invited to the Best #{party_name} 
   Party Ever on #{date} at #{time}.
